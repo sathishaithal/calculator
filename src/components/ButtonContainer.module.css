@@ -1,0 +1,65 @@
+/* Existing Styles */
+
+.buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); */
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    font-size: 1.5em;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #444, #666);
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), -3px -3px 10px rgba(255, 255, 255, 0.1);
+}
+
+.button:hover {
+    background: linear-gradient(145deg, #555, #777);
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6), -5px -5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.button:active {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6), -2px -2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.clearButton {
+    background: linear-gradient(145deg, #e76f51, #d65a3b);
+}
+
+.operatorButton {
+    background: linear-gradient(145deg, #f4a261, #e89950);
+}
+
+.equalsButton {
+    background: linear-gradient(145deg, #6ab04c, #4cd137); 
+
+}
+
+.percentageButton {
+    background: linear-gradient(145deg, #2a9d8f, #238577);
+}
+
+.parenthesisButton {
+    background: linear-gradient(145deg, #f4a261, #e89950);
+}
+
+.percentageButton:hover,
+.parenthesisButton:hover {
+    background: linear-gradient(145deg, #e76f51, #d65a3b);
+}
